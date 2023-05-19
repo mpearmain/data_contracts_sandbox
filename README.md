@@ -1,4 +1,4 @@
-# Data Contracts Sanndbox
+# Data Contracts Sandbox
 This repository is used to maintain and manage our data contracts. These contracts are defined using JSON schemas. We use pre-commit hooks to validate the contracts, and a GitHub Action to automatically bump the version when changes are pushed to the master branch.
 
 ## Prerequisites
