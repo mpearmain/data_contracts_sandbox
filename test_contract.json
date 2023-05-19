@@ -12,7 +12,7 @@
     "dataOwner": {
       "name": "Test Data Owner",
       "email": "test.data.owner@example.com"
-    },
+    }
   },
   "data": {
     "type": "array",
