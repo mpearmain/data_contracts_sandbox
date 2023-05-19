@@ -1,5 +1,8 @@
 # Data Contracts Sandbox
-This repository is used to maintain and manage our data contracts. These contracts are defined using JSON schemas. We use pre-commit hooks to validate the contracts, and a GitHub Action to automatically bump the version when changes are pushed to the master branch.
+This repository is used to maintain and manage our data contracts. These contracts are defined using JSON schemas. 
+In this example we use pre-commit hooks to validate the contracts, and a GitHub Action to automatically bump the version when changes are pushed to the master branch.
+
+In a production setting you could do far more sophisticated things i.e, in the pre-commit activities you could lookup in the compnay AD to see if the dataOwner exists and fire warnings, or in the actions you could parse the contract and automatatically send changes to downstream services that utilise the metadata (think data governance and when fields change in there access control, or data discoverability and updating the meta information used by these services)
 
 ## Prerequisites
 
