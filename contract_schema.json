@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "object",
+      "properties": {
+        "schema": { "type": "string" },
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "version": { "type": "string" },
+        "created": { "type": "string" },
+        "updated": { "type": "string" },
+        "url": { "type": "string" },
+        "language": { "type": "string" },
+        "license": { "type": "string" },
+        "publisher": {
+          "type": "object",
+          "properties": {
+            "name": { "type": "string" },
+            "url": { "type": "string" }
+          },
+          "required": ["name", "url"]
+        },
+        "contactPoint": {
+          "type": "object",
+          "properties": {
+            "name": { "type": "string" },
+            "email": { "type": "string" }
+          },
+          "required": ["name", "email"]
+        },
+        "distribution": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "mediaType": { "type": "string" },
+              "byteSize": { "type": "integer" },
+              "url": { "type": "string" }
+            },
+            "required": ["mediaType", "byteSize", "url"]
+          }
+        }
+      },
+      "required": ["schema", "id", "title", "description", "version", "created", "updated", "url", "language", "license", "publisher", "contactPoint", "distribution"]
+    },
+    "data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "name": { "type": "string" },
+          "email": { "type": "string" },
+          "age": { "type": "integer" }
+        },
+        "required": ["id", "name", "email", "age"]
+      }
+    }
+  },
+  "required": ["meta", "data"]
+}
