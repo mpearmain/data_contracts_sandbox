@@ -40,17 +40,16 @@ We use a pre-commit hook to validate our data contracts. This hook runs every ti
 To set up the pre-commit hook, follow these steps:
 Create a shell script named `pre-commit` in the `.git/hooks/` directory of your repository. This script will be executed every time you try to commit changes.
 
+```bash
+#!/bin/sh
 
-    ```bash
-    #!/bin/sh
+python validate.py
 
-    python validate.py
-
-    if [ $? -ne 0 ]; then
-     echo "Data validation failed, commit rejected"
-     exit 1
-    fi
-    ```
+if [ $? -ne 0 ]; then
+ echo "Data validation failed, commit rejected"
+ exit 1
+fi
+```
 Make the pre-commit hook executable by running `chmod +x .git/hooks/pre-commit`.
 
 ## Automatic Version Bumping
