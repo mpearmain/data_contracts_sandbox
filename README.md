@@ -10,6 +10,7 @@ This repository is used to maintain and manage our data contracts. These contrac
 ## Repository Structure
 
 The repository has the following structure:
+```
 .
 ├── LICENSE
 ├── README.md
@@ -17,6 +18,7 @@ The repository has the following structure:
 ├── test_contract.json
 ├── validate.py
 └── github_actions/version_bump.yaml 
+```
 
 - `LICENSE`: The license for this repository.
 - `README.md`: This document, which provides an overview of the repository.
