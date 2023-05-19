@@ -24,7 +24,7 @@
             "email": { "type": "string", "format": "email" }
           },
           "required": ["name", "email"]
-        },
+        }
       },
       "required": ["schema", "id", "title", "description", "version", "created", "updated", "language", "license", "dataOwner"]
     },
