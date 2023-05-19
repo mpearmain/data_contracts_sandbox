@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "schema": "http://json-schema.org/draft-07/schema#",
+    "id": "1",
+    "title": "Data Contract Test",
+    "description": "This is a test data contract",
+    "version": "0.1.0",
+    "created": "2023-05-19T00:00:00Z",
+    "updated": "2023-05-19T00:00:00Z",
+    "language": "en",
+    "license": "MIT",
+    "dataOwner": {
+      "name": "Test Data Owner",
+      "email": "test.data.owner@example.com"
+    },
+  },
+  "data": {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "name": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "age": { "type": "integer", "minimum": 0 }
+      },
+      "required": ["id", "name", "email", "age"]
+    }
+  }
+}
