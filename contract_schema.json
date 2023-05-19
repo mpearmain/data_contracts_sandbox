@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://example.com/contract_schema.json", # Not utilsed here but in platform build we'd probably want to expose this
+  "$id": "https://example.com/contract_schema.json",
   "title": "Contract Schema",
   "description": "Schema for data contracts",
   "type": "object",
