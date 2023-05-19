@@ -9,6 +9,8 @@ In a production setting you could do far more sophisticated things i.e,
 * In the actions you could parse the contract (with a `parser.py` script) and automatatically send changes to downstream services that utilise the metadata
   - Data governance and when fields change in there access control 
   - Data discoverability and updating the meta information used by these services)
+  - Create / evolve schema registry entries 
+  - Create / evolve catalog entries
 
 ## Prerequisites
 
