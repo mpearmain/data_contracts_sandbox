@@ -12,6 +12,9 @@ In a production setting you could do far more sophisticated things i.e,
   - Create / evolve schema registry entries 
   - Create / evolve catalog entries
 
+![image](https://github.com/mpearmain/data_contracts_sandbox/assets/2668563/7354ff2b-ea98-4f71-adb1-7ba184ff8b6a)
+
+
 ## Prerequisites
 
 - Python 3.7 or later
