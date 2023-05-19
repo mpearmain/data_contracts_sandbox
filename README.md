@@ -38,8 +38,7 @@ The contracts themselves are JSON documents that conform to the structure define
 We use a pre-commit hook to validate our data contracts. This hook runs every time you make a commit. It checks that the changes you've made to the contracts are valid according to the schema.
 
 To set up the pre-commit hook, follow these steps:
-
-1. Create a shell script named `pre-commit` in the `.git/hooks/` directory of your repository. This script will be executed every time you try to commit changes.
+Create a shell script named `pre-commit` in the `.git/hooks/` directory of your repository. This script will be executed every time you try to commit changes.
 
     ```bash
     #!/bin/sh
@@ -51,8 +50,7 @@ To set up the pre-commit hook, follow these steps:
      exit 1
     fi
     ```
-
-2. Make the pre-commit hook executable by running `chmod +x .git/hooks/pre-commit`.
+Make the pre-commit hook executable by running `chmod +x .git/hooks/pre-commit`.
 
 ## Automatic Version Bumping
 
