@@ -69,6 +69,7 @@ In this example, the workflow triggers when you push to the master branch. The j
   - GITHUB_TOKEN (required): This is required for the action to have permission to push the new tag to your repository. The token is provided by GitHub, you just need to reference it as shown above.
   - DEFAULT_BUMP (optional): Which type of version bump to use if none is explicitly provided in the commit message (major, minor, or patch). Defaults to minor.
   - WITH_V (optional): Whether or not to prefix the tag with 'v'. If true, your tags will look like v1.0.0. If false, they will look like 1.0.0.
+  - 
 **Commit and push the workflow**: Once you have configured the workflow to your liking, commit and push it to your repository. The workflow will now trigger according to the event you specified.
 
 
