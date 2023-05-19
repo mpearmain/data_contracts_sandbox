@@ -40,6 +40,7 @@ We use a pre-commit hook to validate our data contracts. This hook runs every ti
 To set up the pre-commit hook, follow these steps:
 Create a shell script named `pre-commit` in the `.git/hooks/` directory of your repository. This script will be executed every time you try to commit changes.
 
+
     ```bash
     #!/bin/sh
 
