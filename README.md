@@ -68,7 +68,7 @@ Make the pre-commit hook executable by running `chmod +x .git/hooks/pre-commit`.
 
 ## Automatic Version Bumping
 
-We use a GitHub Action to automatically bump the version of our contracts when changes are pushed to the master branch. 
+We use a GitHub Action to automatically bump the version of our contracts when changes are pushed to the main branch. 
 The configuration for this action can be found in `github_actions/version_bump.yaml`.
 
 The following action must be taken to add this to the repo
