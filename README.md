@@ -11,6 +11,7 @@ In a production setting you could do far more sophisticated things i.e,
   - Data discoverability and updating the meta information used by these services)
   - Create / evolve schema registry entries 
   - Create / evolve catalog entries
+* A very intersting extension would be mergin this with (https://github.com/BauplanLabs/no-jvm-wap-with-iceberg) to show case data loading based on contracts, and branching etc
 
 ![image](https://github.com/mpearmain/data_contracts_sandbox/assets/2668563/7354ff2b-ea98-4f71-adb1-7ba184ff8b6a)
 
